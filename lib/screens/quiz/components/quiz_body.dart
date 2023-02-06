@@ -17,8 +17,8 @@ class QuizBody extends StatelessWidget {
     QuestionController _questionController = Get.put(QuestionController());
     return Stack(
       children: [
-        WebsafeSvg.asset('assets/icons/bg.svg',
-            alignment: Alignment.center, width: 900, fit: BoxFit.fill),
+        // WebsafeSvg.asset('assets/icons/bg.svg',
+        //     alignment: Alignment.center, width: 900, fit: BoxFit.fill),
         SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,

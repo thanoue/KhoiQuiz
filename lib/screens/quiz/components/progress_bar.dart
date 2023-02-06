@@ -40,7 +40,7 @@ class ProgressBar extends StatelessWidget {
                       children: [
                         Text(
                             "${(controller.anmation.value * controller.animController.duration?.inSeconds).round()} sec"),
-                        WebsafeSvg.asset('assets/icons/clock.svg')
+                        //WebsafeSvg.asset('assets/icons/clock.svg')
                       ],
                     ),
                   ),

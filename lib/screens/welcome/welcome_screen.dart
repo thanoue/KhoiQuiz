@@ -14,8 +14,6 @@ class WelcomeScreen extends StatelessWidget {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          WebsafeSvg.asset('assets/icons/bg.svg',
-              alignment: Alignment.center, width: 900, fit: BoxFit.fill),
           SafeArea(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),

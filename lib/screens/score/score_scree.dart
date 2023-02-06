@@ -16,7 +16,7 @@ class ScoreScreen extends StatelessWidget {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          WebsafeSvg.asset('assets/icons/bg.svg', fit: BoxFit.fill),
+          // WebsafeSvg.asset('assets/icons/bg.svg', fit: BoxFit.fill),
           Column(crossAxisAlignment: CrossAxisAlignment.center, children: [
             Spacer(
               flex: 5,
