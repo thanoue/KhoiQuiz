@@ -5,7 +5,7 @@ import '../../controllers/question_controller.dart';
 import 'components/quiz_body.dart';
 
 class QuizScreen extends StatelessWidget {
-  const QuizScreen({Key? key}) : super(key: key);
+  const QuizScreen({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

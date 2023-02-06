@@ -6,7 +6,7 @@ import 'package:websafe_svg/websafe_svg.dart';
 import '../../controllers/question_controller.dart';
 
 class ScoreScreen extends StatelessWidget {
-  const ScoreScreen({Key? key}) : super(key: key);
+  const ScoreScreen({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

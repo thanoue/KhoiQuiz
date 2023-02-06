@@ -6,9 +6,9 @@ import 'package:quiz/screens/score/score_scree.dart';
 
 class QuestionController extends GetxController
     with SingleGetTickerProviderMixin {
-  late AnimationController _animController;
+  AnimationController _animController;
 
-  late Animation _anim;
+  Animation _anim;
 
   Animation get anmation => _anim;
   AnimationController get animController => _animController;
@@ -28,7 +28,7 @@ class QuestionController extends GetxController
   int _correctAns = 0;
   int get correctAns => this._correctAns;
 
-  late int _selectedAns;
+  int _selectedAns;
   int get selectedAns => this._selectedAns;
 
   RxInt _questionNumber = 1.obs;
@@ -37,7 +37,7 @@ class QuestionController extends GetxController
   int _numOfCorrectAns = 0;
   int get numOfCorrectAns => this._numOfCorrectAns;
 
-  late PageController _pageController;
+  PageController _pageController;
   PageController get pageController => this._pageController;
 
   @override

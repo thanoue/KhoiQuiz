@@ -9,7 +9,7 @@ import 'package:websafe_svg/websafe_svg.dart';
 
 class QuizBody extends StatelessWidget {
   const QuizBody({
-    Key? key,
+    Key key,
   }) : super(key: key);
 
   @override
