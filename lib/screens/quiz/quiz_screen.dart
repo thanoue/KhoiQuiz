@@ -17,7 +17,7 @@ class QuizScreen extends StatelessWidget {
         backgroundColor: Colors.transparent,
         elevation: 0,
         actions: [
-          FlatButton(
+          MaterialButton(
             onPressed: () {
               _questionController.nextQuestion();
             },

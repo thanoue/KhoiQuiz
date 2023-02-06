@@ -41,6 +41,8 @@ dependencies:
   # state management, intelligent dependency injection, and route management
   get: ^3.24.0
 
+  flutter_svg: ^0.19.3
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

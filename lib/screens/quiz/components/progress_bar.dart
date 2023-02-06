@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:quiz/controllers/question_controller.dart';
 import 'package:websafe_svg/websafe_svg.dart';
@@ -40,7 +41,11 @@ class ProgressBar extends StatelessWidget {
                       children: [
                         Text(
                             "${(controller.anmation.value * controller.animController.duration?.inSeconds).round()} sec"),
-                        //WebsafeSvg.asset('assets/icons/clock.svg')
+                        SvgPicture.asset(
+                          'assets/icons/clock.svg',
+                          fit: BoxFit.fill,
+                        ),
+                        //WebsafeSvg.asset()
                       ],
                     ),
                   ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:quiz/constants.dart';
 import 'package:quiz/controllers/question_controller.dart';
@@ -16,9 +17,12 @@ class QuizBody extends StatelessWidget {
   Widget build(BuildContext context) {
     QuestionController _questionController = Get.put(QuestionController());
     return Stack(
+      fit: StackFit.expand,
       children: [
-        // WebsafeSvg.asset('assets/icons/bg.svg',
-        //     alignment: Alignment.center, width: 900, fit: BoxFit.fill),
+        SvgPicture.asset(
+          'assets/icons/bg.svg',
+          fit: BoxFit.fill,
+        ),
         SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
